@@ -6,4 +6,15 @@ nav{
 }
 div.contenitore{
     text-align: center;
+    
+}
+
+.carousel{
+   height: 400px;
+   overflow: hidden;
+    
+}
+
+.carousel img{
+   height: 400px;
 }
