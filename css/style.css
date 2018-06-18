@@ -1,3 +1,6 @@
+body{
+    background-color:rgba(235, 198, 204, 0.911);
+}
 img{
     width: 200px;
 }
@@ -6,4 +9,14 @@ nav{
 }
 div.contenitore{
     text-align: center;
+    padding:5em;
+}
+div.row div{
+    background-color: antiquewhite;
+}
+div#spazio{
+     background-color:palevioletred;
+}
+h3{
+    color:rgb(163, 7, 129);
 }
