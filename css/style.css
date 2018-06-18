@@ -19,4 +19,15 @@ div#spazio{
 }
 h3{
     color:rgb(163, 7, 129);
+    
+}
+
+.carousel{
+   height: 400px;
+   overflow: hidden;
+    
+}
+
+.carousel img{
+   height: 400px;
 }
