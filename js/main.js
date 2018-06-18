@@ -2,13 +2,13 @@ var lista_cupcackes= document.querySelector('#descrizioni');
 
 function mostraCupcakes(cupcakes) {
     for (var i = 0; i < cupcakes.length; i++) {
-        var contenitore = $('<div></div>').addClass('row mb-2');
+        var contenitore = $('<div></div>').addClass('row mb-2 ml-2');
 
         if (i%2 == 0) {
             var rowimmagine = $('<div></div>').addClass('col-md-4');
             var immagine = $('<img></img>').addClass("img-fluid").attr("src", cupcakes[i].foto).css('width','200px');
             console.log(immagine);
-            var rowdescrizione = $('<div></div>').addClass("col-md-8");           
+            var rowdescrizione = $('<div></div>').addClass("col-md-8 text-justify");           
             var nome=$('<h3></h3>').html(cupcakes[i].nome);
             var descrizione = $('<p></p>').html(cupcakes[i].descrizione);
             var ingredienti = $('<p></p>').html("Ingredienti:<br />"+cupcakes[i].ingredienti);
@@ -56,4 +56,4 @@ function mostraCupcakes(cupcakes) {
     }
     
 }
-mostraCupcakes(cupcakes)
+mostraCupcakes(cupcakes);

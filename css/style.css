@@ -1,9 +1,9 @@
 img{
     width: 200px;
 }
+nav{
+    background-color: palevioletred;
+}
 div.contenitore{
     text-align: center;
-}
-i{
-    background-color: palevioletred;
 }
