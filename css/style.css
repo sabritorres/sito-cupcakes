@@ -6,10 +6,12 @@ img{
 }
 nav{
     background-color: palevioletred;
+    margin-bottom:0;
 }
 div.contenitore{
     text-align: center;
-    padding:5em;
+    margin-left:80px;
+    margin-right:80px;
 }
 div.row div{
     background-color: antiquewhite;
@@ -25,8 +27,19 @@ h3{
 .carousel{
    height: 400px;
    overflow: hidden;
-    }
+}
 
 .carousel img{
    height: 400px;
+}
+div#linea{
+    border-bottom: 1px solid purple;
+}
+img#eventi{
+    margin-top:2em;
+    width: 30em;
+}
+h2{
+    color:white;
+    background-color: rgb(216, 40, 137);
 }
