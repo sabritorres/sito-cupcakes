@@ -9,7 +9,7 @@ var cupcakes = [{
     id:2,
     nome: 'Cupcake Mermaid',
     foto: "../img/mermaind.jpg",
-    descrizione: "Mermaid Cupcakes sono splendidi cupcakes ispirati all'oceano e alla magia delle sirene! I cupcakes tropicali al cocco sono decorati con "sabbia" di cocco tostata, code di sirena commestibili, perle di zucchero e conchiglie di cioccolato luccicante",
+    descrizione: "Mermaid Cupcakes sono splendidi cupcakes ispirati all'oceano e alla magia delle sirene! I cupcakes tropicali al cocco sono decorati con sabbia di cocco tostata, code di sirena commestibili, perle di zucchero e conchiglie di cioccolato luccicante",
     ingredienti:  ['self-rasing flour','butter', 'caster sugar', 'eggs', 'vanilla', 'blue coloring'],
     prezzo: 6.
 
